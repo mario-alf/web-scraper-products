@@ -1,0 +1,68 @@
+Web Scraper - Products
+Descripción del proyecto
+
+Este proyecto es un script en Python que permite extraer información de productos desde sitios web públicos y guardarla en un archivo CSV para análisis o uso comercial.
+
+El scraper recoge información como:
+
+1) Nombre del producto
+
+2) Precio
+
+3) Descripción o detalles relevantes
+
+El objetivo es demostrar habilidades en web scraping, manipulación de datos con Python y generación de archivos CSV.
+
+Requisitos
+
+I) Python 3.10 o superior
+
+II) Librerías:
+
+    a) beautifulsoup4
+
+|   b) pandas
+
+    c) requests
+
+Instalación rápida:
+
+pip install -r requirements.txt
+
+Uso del script
+
+Abre scraper.py y verifica la URL del sitio web objetivo (en este proyecto usamos un sitio de prueba).
+
+Ejecuta el script:
+
+python scraper.py
+
+
+Se generará un archivo CSV con los datos extraídos en la carpeta /examples/.
+
+Ejemplo de Output
+
+Archivo: examples/products_example.csv
+
+Name	Price	Description
+Lenovo IdeaPad	$500	Laptop with Intel i5
+Dell Inspiron	$600	Laptop with 8GB RAM
+HP Pavilion	$450	Laptop with AMD Ryzen 5
+
+
+Estructura del Proyecto
+web-scraper-products/
+├─ README.md
+├─ scraper.py
+├─ requirements.txt
+├─ /examples/       # CSV de ejemplo
+├─ /screenshots/    # Capturas de pantalla
+└─ /docs/           # PDF explicativo
+
+Notas
+
+Solo se utilizan sitios web públicos para respetar términos de servicio.
+
+Diseñado para fines educativos y comerciales legales.
+
+Fácil de adaptar a otros sitios web cambiando la URL y los selectores de HTML.

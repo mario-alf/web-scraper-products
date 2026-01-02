@@ -10,4 +10,3 @@ A Python project to scrape product data from public websites and export it to CS
 
 ## Example Output
 A sample CSV file with example output is included in the `/examples` folder.
-
